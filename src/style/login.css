@@ -1,0 +1,85 @@
+.bigContainer{
+
+
+    font-size: 18px;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    color: #095D7E;
+}
+.logo{
+    position: absolute;
+    top: 4%;
+left: 4%;
+    width: 109px;
+    background-color:#CCECEE ;
+}
+.doctor{
+    position: absolute;
+    bottom: 0;
+    right: 22%;
+    height: 70vh;
+    width: 30vw;
+
+}
+.greetings{
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+
+
+}
+.LoginContainer{
+    width: 60vw;
+    height: 100vh;
+    background-color: #CCECEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerLogin{
+ width:35vw;
+
+}
+.inputLogin{
+    background-color: transparent;
+   height: 6vh;
+    border-radius: 31vw;
+    margin-bottom: 10vh;
+    color:#095D7E !important;
+    border: #095D7E 1px solid;
+
+}
+.inputLogin:focus{
+    border: 1px solid #095D7E !important;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25) !important;
+    background-color: transparent;
+    cursor: pointer;
+    color: #095D7E;
+}
+.inputLogin:hover{
+    cursor: pointer;
+}
+.inputLogin::placeholder{
+    color:#095D7E !important;
+}
+.loginBtn{
+    width: 20vw;
+    height: 6vh;
+    background-color: #095D7E;
+    border-radius: 31vw;
+    margin-left: 7vw;
+    border: none;
+
+}
+.decoContainer{
+    width: 40vw;
+    height: 100vh;
+    background-color: #095D7E;
+    display: flex;
+    justify-content: center;
+    align-items: center;}

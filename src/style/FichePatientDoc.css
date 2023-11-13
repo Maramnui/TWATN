@@ -1,0 +1,44 @@
+.grandContainer{
+    height: 100vh;
+    Width: 100vw;
+    display: flex;
+
+}
+.navbar{
+    width: 20vw;
+    height: 100vh;
+    background-color: #CCECEE;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: flex-start;
+
+}
+.patientName{
+    color: #14967F;
+    font-size: 20px;
+    margin-top: 20vh;
+
+}
+.otherPatientBtn{
+    width: 12vw;
+    height: 6vh;
+    background-color: #095D7E;
+    border-radius: 31vw;
+    margin-top:15vh ;
+    border: none;
+}
+.tableau{
+    margin-left: 3vw;
+    margin-top: 10vh;
+}
+th[tabindex="0"]{
+    background-color: #CCECEE;
+}
+.salutation{
+    margin-top: 6vh;
+    width: 100%;
+    text-align: center;
+    color: #14967F;
+    font-size: 2vw;
+}

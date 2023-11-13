@@ -1,0 +1,53 @@
+{
+  "patients": [
+    {
+      "nom": "Selmi Mohamed",
+
+      "code": "123456789",
+      "poids": "80 kg",
+      "taille": "1.80 m",
+      "allergies": "Pollen",
+      "antécédants": "Asthme",
+      "maladies": [
+        {
+          "nom": "Hypertension",
+          "medicament": [{"Syntrom":"2 fois par jour","Doliprane": "3 fois par jour","Atenolol": "1 fois par jour"}],
+          "medecin": "Dr. Smith",
+          "date": "2023-11-13",
+          "duree": "30",
+          "disponibilite": true
+        },
+        {
+          "nom": "Diabète",
+          "medicament": {"Metformine":"1 fois par jour" },
+          "medecin": "Dr. Johnson",
+          "date": "2020-11-2",
+          "duree": "60 ",
+          "frequence": "2 fois par jour",
+          "disponibilite": false
+        }
+      ]
+    },
+    {
+      "nom": "Ben Salah Ahmed",
+      "code": "11111111",
+      "poids": "70 kg",
+      "taille": "1.60 m",
+      "allergies": "Acariens",
+      "antécédants": "rien",
+      "maladies": [
+        {
+          "nom": "Asthme",
+          "medicament": {"Albuterol": "1 fois par jour"},
+          "medecin": "Dr. Davis",
+          "date": "2023-9-10",
+          "duree": "15",
+          "frequence": "3 fois par jour",
+          "disponibilite": true
+        }
+      ]
+    }
+
+
+  ]
+}
